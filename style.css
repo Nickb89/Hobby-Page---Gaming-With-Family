@@ -1,10 +1,105 @@
-body {
-    background-color: blue;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+img {max-width:100%;}
 
 .content-wrapper{
     display: block;
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
+    border-radius: 20px;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+}
+
+#header{
+    font-size: x-large;
+    position: relative;
+    padding-left:20px;
+    
+}
+
+
+#textbox{
+   
+    background-color: rgb(154, 209, 247);
+    position:absolute;
+    top: 30%;
+    right: 50px;
+    border-radius: 20px;
+    padding:10px;
+    opacity: 0.7;
+}
+
+#textbox h1{
+padding:0;
+color:white;
+margin:0;
+}
+
+#textbox h2{
+    padding:0;
+    margin:0;color:white;
+    font-weight: lighter;
+    text-align: center;
+    }
+
+#maincontent{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+    
+}
+
+#lefttext{
+    flex: 1;
+    justify-content: space-evenly;
+    font-size: larger;
+    display:flex;
+    flex-direction: column;
+
+}
+
+#lefttext li{
+    color:rgb(0, 0, 0);
+    font-size: larger;
+
+}
+
+
+
+#rightlink{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.buttonstyle{
+
+    font-size: larger;
+
+    font-weight: bold;
+
+}
+
+
+#footer{
+    background-color:rgb(53, 118, 165);
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    font-size: larger;
+    padding:5px;
 }

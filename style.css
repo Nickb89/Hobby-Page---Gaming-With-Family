@@ -90,13 +90,15 @@ overflow: hidden;
 
 
 
-#rightlink{
+#rightcontent{
     flex: 1;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
+    border-radius: 20px;
+    border: 1px rgb(212, 212, 212) solid;
     
 }
 
